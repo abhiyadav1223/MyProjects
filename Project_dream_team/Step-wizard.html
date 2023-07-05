@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #step-box {
+        /* display: grid; */
+        /* grid-template-columns: auto auto auto auto; */
+        /* background-color: black; */
+        padding: 15px;
+        width: 80%;
+        /* margin-left: auto; */
+        /* margin-right: auto; */
+        text-align: center;
+    }
+
+    .step-item {
+        display: inline-block;
+        background-color: white;
+        border: 2px solid black;
+        width: 2%;
+        text-align: center;
+        border-radius: 50%;
+        font-size: 20px;
+    }
+    @keyframes item{
+        0%{
+            background-color: rgb(189, 248, 181);
+        }
+        /* 50%{
+            background-color: rgb(48, 247, 58);
+        } */
+        100%{
+            background-color: rgb(5, 250, 17);
+        }
+    }
+
+    .step-line {
+        display: inline-block;
+        border-top: 1px solid black;
+        width: 2em;
+    }
+
+</style>
+
+<body>
+    <div id="step-box">
+        <div class="step-item" id="one">1</div>
+        <div class="step-line" id="line1"></div>
+        <div class="step-item" id="two">2</div>
+        <div class="step-line" id="line2"></div>
+        <div class="step-item" id="three">3</div>
+        <div class="step-line" id="line3"></div>
+        <div class="step-item" id="four">4</div>
+    </div>
+    <button onclick="btn()" data-btn="1" id="chnage"> Click</button>
+</body>
+<script>
+    function btn() {
+        inp = + chnage.getAttribute("data-btn")
+        if (inp == 1) {
+            // alert("Hello i am number 1")
+            one.style= "animation: item 2s ; background-color: rgb(5, 250, 17)"
+            line1.style = "border-color:rgb(47, 245, 57);"
+        }
+        else if (inp == 2) {
+            // alert("Hello i am number 2")
+            // two.style = "background-color:rgb(47, 245, 57);"
+            two.style= "animation: item 2s alternate;background-color: rgb(5, 250, 17)"
+            line2.style = "border-color:rgb(47, 245, 57);"
+        }
+        else if (inp == 3) {
+            // alert("Hello i am number 3")
+            three.style= "animation: item 2s alternate;background-color: rgb(5, 250, 17)"
+            line3.style = "border-color:rgb(47, 245, 57);"
+        }
+        else if (inp == 4) {
+            // alert("Hello i am number 4")
+            four.style= "animation: item 2s alternate;background-color: rgb(5, 250, 17)"
+            line4.style = "border-color:rgb(47, 245, 57);"
+        }
+        val = inp + 1;
+        chnage.setAttribute("data-btn", val)
+
+    }
+</script>
+
+</html>

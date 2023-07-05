@@ -1,0 +1,127 @@
+<html>
+
+<head>
+
+</head>
+<!-- <link rel="stylesheet" href="/bootstrap-5.0.2-dist/css/bootstrap.min.css"> -->
+<link href="https://fonts.googleapis.com/css2?family=Lexend&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="Dream11.css">
+<link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+<script src="Dream11.js"></script>
+
+<body>
+    <div>
+        <div id="nav-box">
+            <img src="dream11-logo.jpg" alt="NO pic" class="img">
+            <h1 id="nav-main-line">Dream 11</h1>
+            <h3 id="nav-punch-line"> Make Your Team Now</h3>
+            <hr>
+        </div>
+        <!-- Marquee starts -->
+        <div id="marq-box">
+          <marquee scrollamount="17">
+            <id= id="marq-line"> Today's Match Between CSK vs GT - starts at 7pm
+            </marquee>
+          </div>
+          <!-- Marquee ends -->
+        <!-- Step Wizard starts -->
+        <div id="step-box">
+          <div class="step-item" id="one">1</div>
+          <div class="step-line" id="line1"></div>
+          <div class="step-item" id="two">2</div>
+          <div class="step-line" id="line2"></div>
+          <div class="step-item" id="three">3</div>
+          <div class="step-line" id="line3"></div>
+          <div class="step-item" id="four">4</div>
+      </div>
+        <!-- Step Wizard ends -->
+        <div id="team-head"> 
+            <h2><span> <img src="csk.png" class="team-img"> VS <img src="gt.png" alt="" class="team-img"></span></h2>
+        </div>
+        <div class="mainbox" id="team-main-box">
+            <div class="box1">
+                <ul>
+                    <li><button onclick="btn(event)" id="cbtn1" value="MS Dhoni : ">MS Dhoni</button></li>
+                    <li><button onclick="btn(event)" id="cbtn2" value="Devon Conway : ">Devon Conway </button> &nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-airplane" viewBox="0 0 16 16">
+                        <path d="M6.428 1.151C6.708.591 7.213 0 8 0s1.292.592 1.572 1.151C9.861 1.73 10 2.431 10 3v3.691l5.17 2.585a1.5 1.5 0 0 1 .83 1.342V12a.5.5 0 0 1-.582.493l-5.507-.918-.375 2.253 1.318 1.318A.5.5 0 0 1 10.5 16h-5a.5.5 0 0 1-.354-.854l1.319-1.318-.376-2.253-5.507.918A.5.5 0 0 1 0 12v-1.382a1.5 1.5 0 0 1 .83-1.342L6 6.691V3c0-.568.14-1.271.428-1.849Zm.894.448C7.111 2.02 7 2.569 7 3v4a.5.5 0 0 1-.276.447l-5.448 2.724a.5.5 0 0 0-.276.447v.792l5.418-.903a.5.5 0 0 1 .575.41l.5 3a.5.5 0 0 1-.14.437L6.708 15h2.586l-.647-.646a.5.5 0 0 1-.14-.436l.5-3a.5.5 0 0 1 .576-.411L15 11.41v-.792a.5.5 0 0 0-.276-.447L9.276 7.447A.5.5 0 0 1 9 7V3c0-.432-.11-.979-.322-1.401C8.458 1.159 8.213 1 8 1c-.213 0-.458.158-.678.599Z"/>
+                      </svg></li>
+                    <li><button onclick="btn(event)" id="cbtn3" value="Ruturaj Gaikwad : ">Ruturaj Gaikwad</button></li>
+                    <li><button onclick="btn(event)" id="cbtn4" value="Ambati Rayudu : ">Ambati Rayudu</button></li>
+                    <li><button onclick="btn(event)" id="cbtn8" value="Anjikya Rahane : ">Anjikya Rahane</button>
+                    <li><button onclick="btn(event)" id="cbtn5" value="Moeen Ali : ">Moeen Ali</button>&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-airplane" viewBox="0 0 16 16">
+                        <path d="M6.428 1.151C6.708.591 7.213 0 8 0s1.292.592 1.572 1.151C9.861 1.73 10 2.431 10 3v3.691l5.17 2.585a1.5 1.5 0 0 1 .83 1.342V12a.5.5 0 0 1-.582.493l-5.507-.918-.375 2.253 1.318 1.318A.5.5 0 0 1 10.5 16h-5a.5.5 0 0 1-.354-.854l1.319-1.318-.376-2.253-5.507.918A.5.5 0 0 1 0 12v-1.382a1.5 1.5 0 0 1 .83-1.342L6 6.691V3c0-.568.14-1.271.428-1.849Zm.894.448C7.111 2.02 7 2.569 7 3v4a.5.5 0 0 1-.276.447l-5.448 2.724a.5.5 0 0 0-.276.447v.792l5.418-.903a.5.5 0 0 1 .575.41l.5 3a.5.5 0 0 1-.14.437L6.708 15h2.586l-.647-.646a.5.5 0 0 1-.14-.436l.5-3a.5.5 0 0 1 .576-.411L15 11.41v-.792a.5.5 0 0 0-.276-.447L9.276 7.447A.5.5 0 0 1 9 7V3c0-.432-.11-.979-.322-1.401C8.458 1.159 8.213 1 8 1c-.213 0-.458.158-.678.599Z"/>
+                      </svg></li>
+                    <li><button onclick="btn(event)" id="cbtn7" value="Shivam Dube : ">Shivam Dube</button></li>
+                    <li><button onclick="btn(event)" id="cbtn11" value="Ravindra Jadeja : ">Ravindra Jadeja</button>
+                    </li>
+                    </li>
+                    <li><button onclick="btn(event)" id="cbtn9" value="Deepak Chahar : ">Deepak Chahar</button></li>
+                    <li><button onclick="btn(event)" id="cbtn10" value="Maheesh Theekshana : ">M. Theekshana</button> &nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-airplane" viewBox="0 0 16 16">
+                        <path d="M6.428 1.151C6.708.591 7.213 0 8 0s1.292.592 1.572 1.151C9.861 1.73 10 2.431 10 3v3.691l5.17 2.585a1.5 1.5 0 0 1 .83 1.342V12a.5.5 0 0 1-.582.493l-5.507-.918-.375 2.253 1.318 1.318A.5.5 0 0 1 10.5 16h-5a.5.5 0 0 1-.354-.854l1.319-1.318-.376-2.253-5.507.918A.5.5 0 0 1 0 12v-1.382a1.5 1.5 0 0 1 .83-1.342L6 6.691V3c0-.568.14-1.271.428-1.849Zm.894.448C7.111 2.02 7 2.569 7 3v4a.5.5 0 0 1-.276.447l-5.448 2.724a.5.5 0 0 0-.276.447v.792l5.418-.903a.5.5 0 0 1 .575.41l.5 3a.5.5 0 0 1-.14.437L6.708 15h2.586l-.647-.646a.5.5 0 0 1-.14-.436l.5-3a.5.5 0 0 1 .576-.411L15 11.41v-.792a.5.5 0 0 0-.276-.447L9.276 7.447A.5.5 0 0 1 9 7V3c0-.432-.11-.979-.322-1.401C8.458 1.159 8.213 1 8 1c-.213 0-.458.158-.678.599Z"/>
+                      </svg></li>
+                    <li><button onclick="btn(event)" id="cbtn6" value="Matheesha pathirana : ">Matheesha
+                            pathirana</button> &nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-airplane" viewBox="0 0 16 16">
+                        <path d="M6.428 1.151C6.708.591 7.213 0 8 0s1.292.592 1.572 1.151C9.861 1.73 10 2.431 10 3v3.691l5.17 2.585a1.5 1.5 0 0 1 .83 1.342V12a.5.5 0 0 1-.582.493l-5.507-.918-.375 2.253 1.318 1.318A.5.5 0 0 1 10.5 16h-5a.5.5 0 0 1-.354-.854l1.319-1.318-.376-2.253-5.507.918A.5.5 0 0 1 0 12v-1.382a1.5 1.5 0 0 1 .83-1.342L6 6.691V3c0-.568.14-1.271.428-1.849Zm.894.448C7.111 2.02 7 2.569 7 3v4a.5.5 0 0 1-.276.447l-5.448 2.724a.5.5 0 0 0-.276.447v.792l5.418-.903a.5.5 0 0 1 .575.41l.5 3a.5.5 0 0 1-.14.437L6.708 15h2.586l-.647-.646a.5.5 0 0 1-.14-.436l.5-3a.5.5 0 0 1 .576-.411L15 11.41v-.792a.5.5 0 0 0-.276-.447L9.276 7.447A.5.5 0 0 1 9 7V3c0-.432-.11-.979-.322-1.401C8.458 1.159 8.213 1 8 1c-.213 0-.458.158-.678.599Z"/>
+                      </svg></li>
+            </div>
+            <div class="box2">
+                <ul>
+                    <li><button onclick="btn(event)" id="gbt1" value="Hardik pandya : ">Hardik pandya</button></li>
+                    <li><button onclick="btn(event)" id="gbt10" value="Wriddhiman Saha : ">Wriddhiman Saha</button></li>
+                    <li><button onclick="btn(event)" id="gbt2" value="Shubman Gill : ">Shubman Gill</button></li>
+                    <li><button onclick="btn(event)" id="gbt3" value="David Miller : ">David Miller</button>&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-airplane" viewBox="0 0 16 16">
+                        <path d="M6.428 1.151C6.708.591 7.213 0 8 0s1.292.592 1.572 1.151C9.861 1.73 10 2.431 10 3v3.691l5.17 2.585a1.5 1.5 0 0 1 .83 1.342V12a.5.5 0 0 1-.582.493l-5.507-.918-.375 2.253 1.318 1.318A.5.5 0 0 1 10.5 16h-5a.5.5 0 0 1-.354-.854l1.319-1.318-.376-2.253-5.507.918A.5.5 0 0 1 0 12v-1.382a1.5 1.5 0 0 1 .83-1.342L6 6.691V3c0-.568.14-1.271.428-1.849Zm.894.448C7.111 2.02 7 2.569 7 3v4a.5.5 0 0 1-.276.447l-5.448 2.724a.5.5 0 0 0-.276.447v.792l5.418-.903a.5.5 0 0 1 .575.41l.5 3a.5.5 0 0 1-.14.437L6.708 15h2.586l-.647-.646a.5.5 0 0 1-.14-.436l.5-3a.5.5 0 0 1 .576-.411L15 11.41v-.792a.5.5 0 0 0-.276-.447L9.276 7.447A.5.5 0 0 1 9 7V3c0-.432-.11-.979-.322-1.401C8.458 1.159 8.213 1 8 1c-.213 0-.458.158-.678.599Z"/>
+                      </svg></li>
+                    <li><button onclick="btn(event)" id="gbt4" value="Rahul Tewatia : ">Rahul Tewatia</button></li>
+                    <li><button onclick="btn(event)" id="gbt5" value="Sai Sudarshan : ">Sai Sudarshan</button></li>
+                    <li><button onclick="btn(event)" id="gbt6" value="Rashid Khan : ">Rashid Khan</button>&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-airplane" viewBox="0 0 16 16">
+                        <path d="M6.428 1.151C6.708.591 7.213 0 8 0s1.292.592 1.572 1.151C9.861 1.73 10 2.431 10 3v3.691l5.17 2.585a1.5 1.5 0 0 1 .83 1.342V12a.5.5 0 0 1-.582.493l-5.507-.918-.375 2.253 1.318 1.318A.5.5 0 0 1 10.5 16h-5a.5.5 0 0 1-.354-.854l1.319-1.318-.376-2.253-5.507.918A.5.5 0 0 1 0 12v-1.382a1.5 1.5 0 0 1 .83-1.342L6 6.691V3c0-.568.14-1.271.428-1.849Zm.894.448C7.111 2.02 7 2.569 7 3v4a.5.5 0 0 1-.276.447l-5.448 2.724a.5.5 0 0 0-.276.447v.792l5.418-.903a.5.5 0 0 1 .575.41l.5 3a.5.5 0 0 1-.14.437L6.708 15h2.586l-.647-.646a.5.5 0 0 1-.14-.436l.5-3a.5.5 0 0 1 .576-.411L15 11.41v-.792a.5.5 0 0 0-.276-.447L9.276 7.447A.5.5 0 0 1 9 7V3c0-.432-.11-.979-.322-1.401C8.458 1.159 8.213 1 8 1c-.213 0-.458.158-.678.599Z"/>
+                      </svg></li>
+                    <li><button onclick="btn(event)" id="gbt7" value="Alzarri Joseph : ">Alzarri Joseph</button>&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-airplane" viewBox="0 0 16 16">
+                        <path d="M6.428 1.151C6.708.591 7.213 0 8 0s1.292.592 1.572 1.151C9.861 1.73 10 2.431 10 3v3.691l5.17 2.585a1.5 1.5 0 0 1 .83 1.342V12a.5.5 0 0 1-.582.493l-5.507-.918-.375 2.253 1.318 1.318A.5.5 0 0 1 10.5 16h-5a.5.5 0 0 1-.354-.854l1.319-1.318-.376-2.253-5.507.918A.5.5 0 0 1 0 12v-1.382a1.5 1.5 0 0 1 .83-1.342L6 6.691V3c0-.568.14-1.271.428-1.849Zm.894.448C7.111 2.02 7 2.569 7 3v4a.5.5 0 0 1-.276.447l-5.448 2.724a.5.5 0 0 0-.276.447v.792l5.418-.903a.5.5 0 0 1 .575.41l.5 3a.5.5 0 0 1-.14.437L6.708 15h2.586l-.647-.646a.5.5 0 0 1-.14-.436l.5-3a.5.5 0 0 1 .576-.411L15 11.41v-.792a.5.5 0 0 0-.276-.447L9.276 7.447A.5.5 0 0 1 9 7V3c0-.432-.11-.979-.322-1.401C8.458 1.159 8.213 1 8 1c-.213 0-.458.158-.678.599Z"/>
+                      </svg></li>
+                    <li><button onclick="btn(event)" id="gbt8" value="Mohammad Shami : ">Mohammad Shami</button></li>
+                    <li><button onclick="btn(event)" id="gbt9" value="Noor Ahmed : ">Noor Ahmed</button>&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-airplane" viewBox="0 0 16 16">
+                        <path d="M6.428 1.151C6.708.591 7.213 0 8 0s1.292.592 1.572 1.151C9.861 1.73 10 2.431 10 3v3.691l5.17 2.585a1.5 1.5 0 0 1 .83 1.342V12a.5.5 0 0 1-.582.493l-5.507-.918-.375 2.253 1.318 1.318A.5.5 0 0 1 10.5 16h-5a.5.5 0 0 1-.354-.854l1.319-1.318-.376-2.253-5.507.918A.5.5 0 0 1 0 12v-1.382a1.5 1.5 0 0 1 .83-1.342L6 6.691V3c0-.568.14-1.271.428-1.849Zm.894.448C7.111 2.02 7 2.569 7 3v4a.5.5 0 0 1-.276.447l-5.448 2.724a.5.5 0 0 0-.276.447v.792l5.418-.903a.5.5 0 0 1 .575.41l.5 3a.5.5 0 0 1-.14.437L6.708 15h2.586l-.647-.646a.5.5 0 0 1-.14-.436l.5-3a.5.5 0 0 1 .576-.411L15 11.41v-.792a.5.5 0 0 0-.276-.447L9.276 7.447A.5.5 0 0 1 9 7V3c0-.432-.11-.979-.322-1.401C8.458 1.159 8.213 1 8 1c-.213 0-.458.158-.678.599Z"/>
+                      </svg></li>
+                    <li><button onclick="btn(event)" id="gbt11" value="Mohit Sharma : ">Mohit Sharma</button></li>
+            </div>
+
+            <div id="team-list">
+                <ol id="ol">
+                    <h3 id="h3"> * Your Team is : </h3>
+                </ol>
+            </div>
+            <div id="capt">
+            </div>
+        </div>
+        </div>
+        <div id="svbtn"> <button onclick="save()" id="savebtn" data-step="1">save</button></div>
+        <!-- -------------- Preview Box -->
+        <div id="bg-box">
+          <div id="box-1" class="inner-box">
+              <div class="plyr" id="plr1"> player 1</div>
+              <div class="plyr" id="plr2"> player 2</div>
+              <div class="plyr" id="plr3"> player 3</div>
+          </div>
+          <div id="box-2" class="inner-box">
+              <div class="plyr" id="plr4"> player 4</div>
+              <div class="plyr" id="plr5"> player 5</div>
+          </div>
+          <div id="box-5" class="inner-box">
+              <div class="plyr" id="plr6"> <span><img src="C logo.png" alt="" height="20px" width="20px"></span> player 6 </div>
+          </div>
+          <div id="box-3" class="inner-box">
+              <div class="plyr" id="plr7"> player 7</div>
+              <div class="plyr" id="plr8"> player 8</div>
+          </div>
+          <div id="box-4" class="inner-box">
+              <div class="plyr" id="plr9"> player 9</div>
+              <div class="plyr" id="plr10"> player 10</div>
+              <div class="plyr" id="plr11"> player 11</div>
+          </div>
+      </div>
+</body>
+
+</html>

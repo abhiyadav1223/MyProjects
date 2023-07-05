@@ -1,0 +1,1048 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'roboot', sans-serif;
+    text-decoration: none;
+}
+
+/* navbar start here */
+#navbar {
+    background-color: rgb(24, 22, 22);
+    color: rgb(192, 189, 189);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 8px 20px;
+    font-family: apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: small;
+    height: 35px;
+    position: fixed;
+    opacity: 98%;
+    z-index: 1;
+
+}
+
+
+.nav-item:hover {
+    /* color: white; */
+    cursor: pointer;
+    animation-name: example;
+    animation-duration: 2s;
+}
+
+@keyframes example {
+
+
+    from {
+        color: rgb(85, 84, 84);
+    }
+
+    to {
+        color: white;
+    }
+}
+
+
+.nav-item {
+    padding: 0px 20px;
+}
+
+.logo-nav {
+    height: 15px;
+    width: 15px;
+}
+
+.cart-nav {
+    height: 16px;
+    width: 15px;
+}
+
+.src-nav {
+    height: 15px;
+    width: 15px;
+}
+
+/* navbar ends here */
+/* head line start */
+.head-line {
+    background-color: rgb(39, 38, 38);
+    color: rgb(246, 242, 236);
+    width: 100%;
+    padding: 10px 10px;
+    height: 40px;
+
+}
+
+.line-p {
+    align-self: center;
+    text-align: center;
+}
+
+.link-a-span {
+    color: rgb(38, 134, 186);
+}
+
+.link-a-span:hover {
+    text-decoration: underline;
+
+}
+
+/* head line ends */
+/* body box */
+/* primary box starts */
+#body-main-box {
+    /* border: 5px solid rgb(4, 130, 138); */
+    height: 720px;
+    top: 0px;
+
+}
+
+#primary-box {
+    /* border: 2px solid black; */
+    text-align: center;
+    height: 200px;
+    padding: 35px 0px;
+    background-color: black;
+}
+
+.line-one {
+    /* border: 2px solid black; */
+    display: inline-block;
+    font-size: 30px;
+    margin: 15px 0px;
+    color: white;
+    background-color: black;
+}
+
+.pro14-line {
+    text-shadow: 6px 5px 4px rgb(46, 46, 46);
+    /* color: aqua; */
+}
+
+.line-second {
+    /* border: 2px solid black; */
+    margin: 0px 0px;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+}
+
+.line-third {
+    /* border: 2px solid black; */
+    margin: 15px 0px;
+
+}
+
+.third-a {
+    font-size: 20px;
+    font-weight: 400px;
+    padding: 0px 25px;
+    color: rgb(38, 134, 214);
+}
+
+.third-a:hover {
+    text-decoration: underline;
+}
+
+/* primary box ends */
+/* main box secondry box starts */
+#secondry-box {
+    /* border: 5px solid rgb(38, 0, 255); */
+    height: 495px;
+    background-color: black;
+}
+
+/* .imgIphone {
+    border: 5px solid aqua;
+} */
+
+.iphone-pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 495px;
+}
+
+/* main box secondry box ends */
+/* main scnd box starts */
+#body-second-mainbox {
+    /* border: 5px solid black; */
+    height: 690px;
+}
+
+#primary-box-scnd {
+    /* border: 5px solid aqua; */
+    text-align: center;
+    height: 200px;
+    padding: 0px 0px;
+
+}
+
+.line-one-scnd {
+    /* border: 2px solid black; */
+    display: inline-block;
+    font-size: 30px;
+    margin: 15px 0px;
+
+
+}
+
+.wt-14pro {
+    text-shadow: 5px 3px 5px rgb(70, 69, 69);
+}
+
+.line-second-scnd {
+    /* border: 2px solid black; */
+    margin: 0px 0px;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.line-third-scnd {
+    /* border: 2px solid black; */
+    margin: 15px 0px;
+}
+
+.third-a-scnd {
+
+    font-size: 20px;
+    font-weight: 400px;
+    padding: 0px 25px;
+    color: rgb(38, 134, 214);
+}
+
+.third-a-scnd:hover {
+    text-decoration: underline;
+}
+
+.imgIphone-scnd {
+    height: 495px;
+}
+
+.iphone-pic-scnd {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 495px;
+}
+
+/* main scnd box ends */
+/* main thrd box strats */
+/* first box */
+#thrd-main-box {
+    /* border: 4px solid black; */
+    height: 665px;
+    display: flex;
+}
+
+#thrd-primary-box {
+    /* border: 4px solid rgb(3, 20, 248); */
+    height: 100%;
+    width: 50%;
+}
+
+.product_mac {
+    /* border: 4px solid rgb(251, 3, 218); */
+    text-align: center;
+    padding: 40px 0px;
+    background-color: black;
+
+}
+
+.product-mac-one {
+    /* border: 2px solid black; */
+    display: inline-block;
+    margin: 8px 0px;
+    color: white;
+    background-color: black;
+}
+
+.product-mac-two {
+    border: 2px solid black;
+    /* background-color: black; */
+    color: white;
+    margin: 10px 0px;
+}
+
+.product-mac-third {
+    color: white;
+    background-color: black;
+    /* border: 2px solid black; */
+    margin: 10px 0px;
+}
+
+
+.product-mac-third-a {
+    font-size: 15spx;
+    font-weight: 350px;
+    padding: 0px 25px;
+    color: rgb(38, 134, 214);
+}
+
+.product-mac-third-a:hover {
+    text-decoration: underline;
+}
+
+.product-mac-img {
+    /* border: 5px solid rgb(1, 128, 1); */
+    height: 65%;
+}
+
+.img-mac {
+    height: 405px;
+    width: 100%;
+}
+
+/* second box */
+#thrd-secondry-box {
+    /* border: 4px solid rgb(255, 2, 2); */
+    height: 100%;
+    width: 50%;
+    margin: 0px 5px;
+}
+
+.product-watch {
+    /* border: 4px solid black ; */
+    text-align: center;
+    padding: 40px 0px;
+}
+
+.product-watch-one {
+    /* border: 2px solid purple; */
+    font-weight: bolder;
+}
+
+.propduct-watch-one-mini {
+    /* border: 2px solid rgb(215, 8, 156); */
+    color: orange;
+    font-size: smaller;
+    margin: 10px 0px;
+}
+
+.product-watch-two {
+    /* border: 2px solid rgb(5, 8, 189); */
+    font-size: x-large;
+    margin: 10px 0px;
+}
+
+.product-watch-third-a {
+    font-size: 15spx;
+    font-weight: 350px;
+    padding: 0px 25px;
+    color: rgb(38, 134, 214);
+}
+
+.product-watch-third-a:hover {
+    text-decoration: underline;
+}
+
+.product-watch-img {
+    /* border: 5px solid rgb(1, 128, 1); */
+    height: 65%;
+    padding: 175px 0px;
+}
+
+.img-watch {
+    height: 230px;
+    width: 100%;
+}
+
+/* main thrd box ends */
+/*fourth main box starts  */
+#fourth-main-box {
+    /* border: 3px solid black; */
+    height: 665px;
+    display: flex;
+}
+
+/* first box */
+#fourth-primary-box {
+    /* border: 4px solid rgb(3, 20, 248); */
+    height: 100%;
+    width: 50%;
+    margin-right: 10px;
+}
+
+.product-hpod {
+    /* border: 4px solid brown; */
+    text-align: center;
+    padding: 40px 0px;
+    background-color: black;
+}
+
+.product-hpod-one {
+    /* border: 3px solid yellow; */
+    margin: 10px 0px;
+    font-size: 27px;
+    color: white;
+}
+
+.product-hpod-two {
+    /* border: 3px solid green; */
+    margin: 10px 0px;
+    font-size: larger;
+    color: white;
+}
+
+.product-hpod-third {
+    /* border: 3px solid red; */
+    margin: 10px 0px;
+    color: white;
+}
+
+.product-hpod-third-a {
+    font-size: 15px;
+    font-weight: 350px;
+    padding: 0px 25px;
+    color: rgb(38, 134, 214);
+}
+
+.product-hpod-third-a:hover {
+    text-decoration: underline;
+}
+
+.product-hpod-img {
+    /* border: 5px solid rgb(1, 128, 1); */
+    height: 67%;
+}
+
+.img-hpod {
+    height: 450px;
+    width: 100%;
+}
+
+/* second box */
+#fourth-second-box {
+    /* border: 4px solid rgb(236, 6, 36); */
+    height: 100%;
+    width: 50%;
+}
+
+.product-ipad {
+    /* border: 4px solid blue; */
+    text-align: center;
+    padding: 40px 0px;
+    background-color: black
+}
+
+.product-ipad-one {
+    /* border: 2px solid yellow; */
+    color: white;
+    margin: 10px 0px;
+    font-size: 25px;
+}
+
+.product-ipad-two {
+    /* align-items: center; */
+    /* border: 2px solid green; */
+    color: white;
+    margin: auto;
+    font-size: large;
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.h4 {
+    /* border: 2px solid yellow; */
+    display: flex;
+    justify-content: center;
+
+}
+
+.product-m2 {
+    height: 50px;
+    width: 50px;
+}
+
+.product-ipad-third {
+    /* border: 2px solid aqua; */
+    color: white;
+    margin: 10px 0px;
+}
+
+.product-ipad-third-a {
+    font-size: 15px;
+    font-weight: 350px;
+    padding: 0px 25px;
+    color: rgb(38, 134, 214);
+}
+
+.product-ipad-third-a:hover {
+    text-decoration: underline;
+}
+
+.product-ipasd-img {
+    /* border: 5px solid rgb(1, 128, 1); */
+    height: 67%;
+}
+
+.img-ipod {
+    height: 428px;
+    width: 100%;
+}
+
+/*fourth main box ends  */
+/* fifth main box start */
+#fifth-main-box {
+    /* border: 4px solid black; */
+    height: 695px;
+}
+
+/* first box */
+#fifth-priamary-box {
+    /* border: 3px solid blue; */
+    height: 40%;
+    background-color: black;
+}
+
+.product-watch8 {
+    /* border: 2px solid black; */
+    text-align: center;
+    padding-top: 50px;
+}
+
+.product-watch8-one {
+    /* border: 2px solid black; */
+    margin-top: 10px;
+    display: inline-block;
+    color: white;
+}
+
+.product-watch8-one-mini {
+    /* border: 2px solid black; */
+    margin-top: 13px;
+    color: rgb(203, 2, 2);
+    font-weight: 600;
+}
+
+.product-watch8-two {
+    /* border: 2px solid black; */
+    margin-top: 13px;
+    font-size: large;
+    color: white;
+}
+
+.product-watch8-third {
+    /* border: 2px solid black; */
+    margin-top: 13px;
+
+}
+
+.product-watch8-third-a {
+    font-size: 15px;
+    font-weight: 350px;
+    padding: 0px 25px;
+    color: rgb(38, 134, 214);
+}
+
+.product-watch8-third-a:hover {
+    text-decoration: underline;
+}
+
+/* second box */
+#fifth-secondary-box {
+    /* border: 3px solid red; */
+    height: 60%;
+}
+
+.product-watch8-img-box {
+    /* border: 5px solid rgb(38, 0, 255); */
+    height: 410px;
+    background-color: black;
+}
+
+.product-watch8-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 410px;
+}
+
+/* fifth main box ends */
+/* footer starts */
+#footer {
+    /* border: 3px solid black; */
+    padding-top: 0px;
+    height: 890px;
+    background-color: rgb(225, 222, 222);
+    color: rgb(101, 97, 97);
+}
+
+/* first box */
+.footer-first-box {
+    /* border: 2px solid blue; */
+    margin: 2px 100px;
+    text-align: left;
+}
+
+/* middle box */
+.footer-middle-box {
+    /* border: 2px solid red; */
+    height: 471px;
+    margin: 20px 100px;
+
+}
+
+.middle-table {
+    /* border: 2px solid black; */
+    padding: 0px 30px;
+    height: 470px;
+    text-align: left;
+}
+
+td {
+    /* border: 2px solid black; */
+    padding: 0px 30px;
+}
+
+.head-table {
+    font-weight: bolder;
+    padding: 0px 10px;
+    color: rgb(52, 52, 52);
+}
+
+/* end box */
+.footer-end-box {
+    /* border: 2px solid blue; */
+    height: 72px;
+    margin: 9px 100px;
+}
+
+
+
+.one {
+    /* border: 2px solid black; */
+    display: inline-block;
+
+}
+
+.two {
+    /* border: 2px solid black; */
+    float: right;
+    /* display: inline-block; */
+}
+
+/* hover in footer */
+.footer-hover {
+    color: rgb(101, 97, 97);
+}
+
+.footer-hover:hover {
+    text-decoration: underline;
+}
+
+/* Hover on Navbar CSS starts here */
+/* Store */
+#hover_store_one:hover #store_nav {
+    display: block;
+}
+
+#store_nav {
+    /* border: 2px solid yellow; */
+    font-family: 'Varela Round', sans-serif;
+    display: none;
+    text-align: left;
+    width: 100vw;
+    height: 450px;
+    background-color: rgb(24, 22, 22);
+    padding-left: 0px;
+    padding-top: 20px;
+    position: absolute;
+    top: 33px;
+    margin: 0px;
+
+    /* font-family: -apple-system, BlinkMacSystemFont, sans-serif; */
+}
+
+#hover_store_one {
+    display: inline;
+}
+
+.table_hover {
+    /* border: 2px solid yellow; */
+    width: 50%;
+    height: 200px;
+    background-color: rgb(24, 22, 22);
+
+}
+
+.thead_hover {
+    color: rgb(116, 115, 115);
+    font-size: small;
+    font-weight: bold;
+
+}
+
+.thead_row_hover td {
+    font-family: 'Varela Round', sans-serif;
+}
+
+.hover_smaller {
+    font-family: 'Varela Round', sans-serif;
+    color: rgb(233, 231, 231);
+    font-size: small;
+    font-weight: 500;
+}
+
+.hover_bigger {
+    font-size: x-large;
+    color: rgb(233, 231, 231);
+    font-weight: bolder;
+}
+
+/* hover css transform */
+#store_nav {
+    animation: rotateMenu 500ms ease-in-out forwards;
+    transform-origin: top center
+}
+
+
+@keyframes rotateMenu {
+    0% {
+        transform: rotateX(-90deg)
+    }
+
+    70% {
+        transform: rotateX(20deg)
+    }
+
+    100% {
+        transform: rotateX(0deg)
+    }
+}
+
+/* Movie section start */
+/* .material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48;
+    font-size: 18px;
+  }
+  
+      .div{
+          width: 100%;
+          position: relative;
+          border: 2px solid black;
+          height: 700px;
+          margin: 0px;
+          padding: 0px;
+          background-color: black;
+          border-radius: 10px;
+          
+      }
+      .vd{
+          height: inherit;
+          width:inherit;
+          position: absolute;
+          z-index: 1;
+      }
+      .btn{
+          border: 2px solid black;
+          background-color: white;
+          color: black;
+          border-radius: 20px;
+          font-size: x-large;
+          padding: 10px;
+          width: 10%;
+          position: absolute;
+          z-index: 2;
+          top: 550px;
+          left:20px;
+          font-weight: bolder;
+          font-family: 'Josefin Sans', sans-serif;
+      }
+      .h1{
+          font-family: 'Abril Fatface', cursive;
+          position: absolute;
+          z-index: 2;
+          top: 200px;
+          left: 577px;
+          font-weight: lighter;
+          color: white;
+          text-align: center;
+          font-size: 59px;
+          font-display:inherit ;
+      } */
+/* movie ends */
+/* Slide Section Start */
+.slide_section {
+    /* border: 3px solid aqua; */
+    height: 670px;
+    width: 100%;
+    background: #9CECFB;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0052D4, #65C7F7, #9CECFB);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1075d3, #65C7F7, #9CECFB);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+.Slide_logo_css {
+    height: 23px;
+    width: 200px;
+    position: absolute;
+    top: 80px;
+    left: 50px;
+
+}
+
+.h5_slide {
+    color: white;
+    position: absolute;
+    right: 0px;
+    bottom: 34px;
+    font-weight: lighter;
+    font-size: 30px;
+    text-shadow: 0px 0px 3px rgb(254, 249, 249);
+    cursor: pointer;
+}
+
+.p_slide {
+    color: white;
+    position: absolute;
+    left: 30px;
+    bottom: 25px;
+    font-size: 20px;
+    font-family: 'Manrope', sans-serif;
+}
+
+.mainbox_slide {
+    border-radius: 5px;
+    top: 50px;
+    height: 89.50%;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img_slide {
+    border-radius: 1%;
+}
+
+.btn_slide {
+    font-family: 'Manrope', sans-serif;
+    border-radius: 13px;
+    background-color: white;
+    color: black;
+    position: absolute;
+    left: 30px;
+    bottom: 0px;
+    padding: 5px 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn_slide:hover {
+    /* box-shadow: 0px 0px 6px white; */
+    border: 1px solid black;
+    animation-name: example;
+    animation-duration: 2s;
+}
+
+@keyframes example {
+
+
+    from {
+        color: rgb(155, 150, 150);
+    }
+
+    to {
+        box-shadow: 1px 1px 6px white;
+    }
+}
+
+
+/* Slide Section ends */
+.fa-brands {
+    animation: colorchange 20s infinite alternate;
+
+
+}
+
+@keyframes colorchange {
+    0% {
+
+        color: rgb(251, 251, 254);
+    }
+
+    10% {
+
+        color:  #fc6d85;
+    }
+
+    20% {
+
+        color: #96daf1;
+    }
+
+    30% {
+
+        color: #fdacd6;
+    }
+
+    40% {
+
+        color: rgb(134, 248, 148);
+    }
+
+    50% {
+
+        color: #fffa6b;
+    }
+
+    60% {
+
+        color: rgb(252, 112, 114);
+    }
+
+    70% {
+
+        color: #f8b971;
+    }
+
+    80% {
+
+        color: #a77ef9;
+    }
+
+    90% {
+
+        color: #cd77fe;
+    }
+
+    100% {
+
+        color: rgb(147, 248, 204);
+    }
+}
+.propduct-watch-one-mini  {
+    animation: colorchange 20s infinite alternate;
+
+
+}
+
+@keyframes colorchange {
+    0% {
+
+        color: rgb(251, 251, 254);
+    }
+
+    10% {
+
+        color:  #fc6d85;
+    }
+
+    20% {
+
+        color: #96daf1;
+    }
+
+    30% {
+
+        color: #fdacd6;
+    }
+
+    40% {
+
+        color: rgb(134, 248, 148);
+    }
+
+    50% {
+
+        color: #fffa6b;
+    }
+
+    60% {
+
+        color: rgb(252, 112, 114);
+    }
+
+    70% {
+
+        color: #f8b971;
+    }
+
+    80% {
+
+        color: #a77ef9;
+    }
+
+    90% {
+
+        color: #cd77fe;
+    }
+
+    100% {
+
+        color: rgb(147, 248, 204);
+    }
+}
+.product-watch8-one-mininavbr
+{
+    animation: colorchange 20s infinite alternate;
+
+
+}
+
+@keyframes colorchange {
+    0% {
+
+        color: rgb(251, 251, 254);
+    }
+
+    10% {
+
+        color:  #fc6d85;
+    }
+
+    20% {
+
+        color: #96daf1;
+    }
+
+    30% {
+
+        color: #fdacd6;
+    }
+
+    40% {
+
+        color: rgb(134, 248, 148);
+    }
+
+    50% {
+
+        color: #fffa6b;
+    }
+
+    60% {
+
+        color: rgb(252, 112, 114);
+    }
+
+    70% {
+
+        color: #f8b971;
+    }
+
+    80% {
+
+        color: #a77ef9;
+    }
+
+    90% {
+
+        color: #cd77fe;
+    }
+
+    100% {
+
+        color: rgb(147, 248, 204);
+    }
+}

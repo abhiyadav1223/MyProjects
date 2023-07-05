@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color: black;
+        color: white;
+    }
+</style>
+<body>
+    <button onclick="blur()"> click to blur</button>
+    <p id="para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, quae voluptatum repudiandae necessitatibus earum accusantium provident ipsa natus reprehenderit odio similique. Sed numquam, dolores dignissimos tempora itaque magni nostrum id.</p>
+</body>
+<script>
+    function blur(){
+        // var bg = document.getElementById("para").innerHTML="<style='filter:blur(2px)'>"
+            $('body').css("filter", "blur(2px)");
+    }
+</script>
+</html>

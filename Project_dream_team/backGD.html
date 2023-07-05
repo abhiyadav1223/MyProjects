@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #bg-box {
+        /* display: none; */
+        width: 100%;
+        border: 2px solid black; 
+        border-radius: 20px;
+        /* height: 400px; */
+        padding: 65px 0px;
+        background: url(cricket-bg.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+        top: 0px;
+    }
+
+    .inner-box {
+        text-align: center;
+    }
+
+    .plyr {
+        margin: 10px 80px;
+        border: 2px solid black;
+        border-radius: 8px;
+        background-color: rgb(248, 238, 151);
+        color: black;
+        font-weight: bolder;
+        font-family: cursive;
+        display: inline-block;
+        width: 12%;
+        height: 40px;
+        text-align: center;
+    }
+</style>
+
+<body>
+    <div id="bg-box">
+        <div id="box-1" class="inner-box">
+            <div class="plyr" id="plr1"> player 1</div>
+            <div class="plyr" id="plr2"> player 2</div>
+            <div class="plyr" id="plr3"> player 3</div>
+        </div>
+        <div id="box-2" class="inner-box">
+            <div class="plyr" id="plr4"> player 4</div>
+            <div class="plyr" id="plr5"> player 5</div>
+        </div>
+        <div id="box-5" class="inner-box">
+            <div class="plyr" id="plr6"> <span><img src="C logo.png" alt="" height="20px" width="20px"></span> player 6 </div>
+        </div>
+        <div id="box-3" class="inner-box">
+            <div class="plyr" id="plr7"> player 7</div>
+            <div class="plyr" id="plr8"> player 8</div>
+        </div>
+        <div id="box-4" class="inner-box">
+            <div class="plyr" id="plr9"> player 9</div>
+            <div class="plyr" id="plr10"> player 10</div>
+            <div class="plyr" id="plr11"> player 11</div>
+        </div>
+    </div>
+    <button onclick="btn()"> click</button>
+</body>
+<script>
+    function btn(){
+        document.getElementById("bg-box").style = "display:none";
+    }
+</script>
+</html>

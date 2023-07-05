@@ -1,0 +1,309 @@
+ul li button {
+    background-color: rgb(240, 62, 62);
+    color: black;
+    border-radius: 5px;
+    font-weight: bold;
+    width: 85%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    border: 2px solid black;
+    box-shadow: 5px 6px 5px #0f0c0c;
+}
+
+button:hover {
+    background-color: rgb(5, 5, 5);
+    color: #fffc00;
+    cursor: pointer;
+}
+
+.mainbox {
+    display: flex;
+    height: 370px;
+    /* padding: 10px 10px;/ */
+    /* border: 2px solid black; */
+    padding: 5px;
+    background: #fffc00;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ffffff, #fffc00);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #ffffff, #fffc00);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+.box1 {
+    /* border: 2px solid red; */
+    width: 20%;
+    text-align: start;
+    padding: 0px 0px;
+}
+
+.box2 {
+    width: 20%;
+    text-align: start;
+    /* border: 2px solid red; */
+    text-decoration: none;
+}
+
+ul li {
+    padding: 2px 0px;
+    list-style: none;
+
+}
+
+li {
+    font-family: 'Lexend', sans-serif;
+}
+
+h2 {
+    text-align: center;
+}
+
+/* ---------------------Navbar */
+* {
+    margin: 0px;
+    /* background-image: url('cricket-bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; */
+}
+
+#nav-box {
+    /* background-color: rgb(243, 59, 59); */
+    background: #FF416C;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FF4B2B, #FF416C);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    color: rgb(8, 5, 5);
+    font-family: 'Lexend', sans-serif;
+    font-weight: lighter;
+    text-align: center;
+}
+
+#nav-main-line {
+    /* border: 2px solid black; */
+    display: inline-block;
+    margin: 5px;
+}
+
+#nav-punch-line {
+    /* border: 2px solid black; */
+    margin: 8px;
+    padding: 10px;
+}
+
+.img {
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin: 10px;
+}
+
+/* ------------------------------------marquee */
+#marq-box {
+    background-color: black;
+}
+
+#marq-line {
+    font-family: 'Lexend', sans-serif;
+    color: rgb(248, 245, 76);
+    font-weight: lighter;
+    animation: blinker 1.5s linear infinite;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
+/* ------------------------------------- Head */
+#team-head h2 {
+    /* border: 2px solid; */
+    text-align: start;
+    font-family: 'Lexend', sans-serif;
+}
+
+#team-head {
+    background: #fffc00;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ffffff, #fffc00);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #ffffff, #fffc00);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.team-img {
+    height: 100px;
+    margin: 0px 75px;
+    width: 100px;
+}
+
+/* ----------------------------------------- Footer */
+#team-list {
+    /* border: 2px solid black; */
+    width: 30%;
+    padding: 5px;
+}
+
+#h3 {
+    font-size: medium;
+    font-family: 'Lexend', sans-serif;
+    background-color: tomato;
+    display: inline-block;
+    border: 2px groove black;
+    border-radius: 4px;
+    padding: 5px;
+    box-shadow: 5px 6px 5px #0f0c0c;
+    margin-bottom: 9px;
+}
+
+#ol li {
+    color: black;
+    font-size: 17px; ;
+    font-weight: bolder;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 5,
+        'wght' 60,
+        'GRAD' -14,
+        'opsz' 24;
+    background: none;
+    border: none;
+    font-size: 17px;
+}
+
+.material-symbols-outlined:hover {
+    background-color: white;
+}
+
+#savebtn {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    width: 20%;
+    font-size: large;
+    border: 2px solid;
+    border-radius: 10px;
+
+}
+
+#savebtn:hover {
+    border: 3px groove wheat;
+}
+
+#svbtn {
+    /* border: 2px solid red; */
+    text-align: center;
+    background: #fffc00;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ffffff, #fffc00);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #ffffff, #fffc00);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+/* --------------------------------- c/vc */
+#capt {
+    /* border: 2px solid black; */
+    width: 42%;
+}
+
+#capt h2 {
+    font-size: medium;
+    font-family: 'Lexend', sans-serif;
+    background-color: tomato;
+    display: inline-block;
+    border: 2px groove black;
+    border-radius: 4px;
+    padding: 5px;
+    margin: 4px;
+}
+
+/* ------------------------------ Step Wizard CSS */
+#step-box {
+    /* display: grid; */
+    /* grid-template-columns: auto auto auto auto; */
+    /* background-color: black; */
+    padding: 15px;
+    width: 100%;
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    text-align: center;
+    background: #fffc00;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #ffffff, #fffc00);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #ffffff, #fffc00);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.step-item {
+    font-family: 'Lexend', sans-serif;
+    display: inline-block;
+    background-color: white;
+    border: 2px solid black;
+    width: 2%;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 20px;
+    box-shadow: 5px 2px 5px #0f0c0c;
+}
+
+@keyframes item {
+    0% {
+        background-color: rgb(189, 248, 181);
+    }
+
+    100% {
+        background-color: rgb(5, 250, 17);
+    }
+}
+
+.step-line {
+    display: inline-block;
+    border-top: 1px solid black;
+    width: 2em;
+}
+
+/* -------------------- Preview start */
+#bg-box {
+    display: none;
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 20px;
+    /* height: 400px; */
+    padding: 65px 0px;
+    background: url(cricket-bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    top: 0px;
+}
+
+.inner-box {
+    text-align: center;
+}
+
+.plyr {
+    margin: 10px 80px;
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: rgb(248, 238, 151);
+    color: black;
+    font-weight: bolder;
+    font-family: 'Lexend', sans-serif;
+    display: inline-block;
+    width: 17%;
+    /* height: 40px; */
+    text-align: center;
+    box-shadow: 5px 6px 5px #0f0c0c;
+    padding: 5px 0px;
+}
